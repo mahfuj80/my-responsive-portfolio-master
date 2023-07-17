@@ -131,7 +131,8 @@ label {
     font-weight: 500;
 }
 
-.css-organize-description-header h1 {
+.css-organize-description-header h1,
+.css-organize-description-header-phone h1 {
     padding: 6% 0%;
     color: #333;
     font-size: 24px;
@@ -166,6 +167,44 @@ label {
 
 
 /* CSS Organize Section End */
+
+/* PHONE CSS Organize Section Start */
+
+.css-organize-phone {
+    border-radius: 12px;
+    background: #FFF;
+    padding: 2%;
+    display: none;
+}
+
+.css-organize-image-phone {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.css-organize-image-phone {
+    width: 60%;
+}
+
+.css-organize-image-phone img {
+    width: 100%;
+    height: auto;
+}
+
+.css-organize-description-header-phone h1 {
+    width: 30vw;
+}
+
+.css-organize-image-phone {
+    width: 98%;
+
+}
+
+/* PHONE CSS Organize Section End */
+
+
+
+
 
 
 /* Mobile Responsive Section Start  */
@@ -216,13 +255,19 @@ label {
 
     /* Progress Section End */
 
-    /* CSS Organize Section Start  */
-
+    /* Desktop  CSS Organize Section Start  */
     .css-organize {
         display: none;
     }
 
-    /* CSS Organize Section End */
+    /* DESKTOP CSS Organize Section End */
+
+    /* PHONE CSS Organize Section Start */
+    .css-organize-phone {
+        display: block;
+    }
+
+    /* PHONE CSS Organize Section End */
 
 
 }
@@ -271,12 +316,19 @@ label {
     /* Progress Section End */
 
 
-    /* CSS Organize Section Start  */
+    /* DESKTOP CSS Organize Section Start  */
     .css-organize {
         display: none;
     }
 
-    /* CSS Organize Section End */
+    /* DESKTOP CSS Organize Section End */
+
+    /* PHONE CSS Organize Section Start */
+    .css-organize-phone {
+        display: block;
+    }
+
+    /* PHONE CSS Organize Section End */
 }
 
 /* Tablet Responsive Section Start */
