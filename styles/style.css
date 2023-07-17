@@ -113,8 +113,62 @@ label {
     width: 13vw;
 }
 
-
 /* progress section End */
+
+/* CSS Organize Section Start  */
+.css-organize {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 2% 0%;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.css-organize-description-header-blog {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.css-organize-description-header h1 {
+    padding: 6% 0%;
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 13vw;
+}
+
+.css-organize-description-header-text {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5% 0%;
+}
+
+
+.css-organize-description-header-footer {
+    color: #2F80ED;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.css-organize-image {
+    width: 70%;
+}
+
+.css-organize-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* CSS Organize Section End */
+
+
+/* Mobile Responsive Section Start  */
 
 @media screen and (max-width:576px) {
 
@@ -162,9 +216,21 @@ label {
 
     /* Progress Section End */
 
+    /* CSS Organize Section Start  */
+
+    .css-organize {
+        display: none;
+    }
+
+    /* CSS Organize Section End */
+
+
 }
 
+/* Mobile Responsive Section End  */
 
+
+/* Tablet Responsive Section Start */
 @media screen and (min-width:577px) and (max-width:960px) {
 
     /* Header Section Start  */
@@ -203,4 +269,14 @@ label {
     }
 
     /* Progress Section End */
+
+
+    /* CSS Organize Section Start  */
+    .css-organize {
+        display: none;
+    }
+
+    /* CSS Organize Section End */
 }
+
+/* Tablet Responsive Section Start */
