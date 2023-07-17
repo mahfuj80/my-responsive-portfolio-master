@@ -1,5 +1,108 @@
+/* universal section css  */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    height: 30px;
+    height: 30px;
+}
+
+body {
+    padding: 5%;
+    border-radius: 12px;
+    background: #F2F2F2;
+}
+
+/* Universal Section CSS End */
+
+/* Header Style Start  */
+.introduce {
+    display: flex;
+    height: auto;
+    border-radius: 12px;
+    background: #FFF;
+    align-items: center;
+    padding: 1%;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 90%;
+    height: auto;
+}
+
+.introduce-description {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduce-description-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9%;
+}
+
+.introduce-person-email-phone p {
+    margin: 5% 0%;
+}
+
+.introduce-description-footer p {
+    padding: 2%;
+}
+
+.introduce-person-name h2 {
+    margin: 5% 0%;
+}
+
+.introduce-description-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24%;
+}
+
+/* Header Style End */
+
+@media screen and (max-width:576px) {
+
+    /* Header Section Start  */
+    .introduce {
+        flex-direction: column;
+
+
+    }
+
+    .introduce-description {
+        padding: 2%;
+    }
+
+    .image {
+        text-align: center;
+        width: 90%;
+    }
+
+    /* Header Section End  */
+
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:960px) {
+
+    /* Header Section Start  */
+    .image {
+        width: 80%;
+    }
+
+    /* Header Section End  */
 }
