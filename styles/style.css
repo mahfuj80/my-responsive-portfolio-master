@@ -202,7 +202,42 @@ label {
 
 /* PHONE CSS Organize Section End */
 
+/* EXPERIENCE SECTION START */
+.experiences {
+    margin: 5% 0%;
+    padding: 2%;
+    border-radius: 12px;
+    background: #FFF;
+}
 
+.experiences-items {
+    display: flex;
+    margin-top: 3%;
+    gap: 10%;
+    padding: 2%;
+}
+
+.experiences-item1 {
+    display: flex;
+}
+
+.experience-item1-description {
+    margin-left: 11%;
+}
+
+.experience-item1-description h3 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4% 0% 10% 0%;
+}
+
+.experiences-item1-image img {
+    width: 5vw;
+    height: 4vw;
+}
+
+/* EXPERIENCE SECTION END */
 
 
 
@@ -231,7 +266,8 @@ label {
     /* Header Section End  */
 
     /* Progress Section Start */
-    .progress-items {
+    .progress-items,
+    .experiences-items {
         flex-direction: column;
     }
 
@@ -268,6 +304,23 @@ label {
     }
 
     /* PHONE CSS Organize Section End */
+
+    /* EXPERIENCE SECTION START */
+    .experience-item1-description {
+        margin-left: 6%;
+    }
+
+    .experiences-item1-image img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .experiences-item1 {
+        display: flex;
+        padding: 6%;
+    }
+
+    /* EXPERIENCE SECTION END */
 
 
 }
@@ -315,7 +368,6 @@ label {
 
     /* Progress Section End */
 
-
     /* DESKTOP CSS Organize Section Start  */
     .css-organize {
         display: none;
@@ -329,6 +381,28 @@ label {
     }
 
     /* PHONE CSS Organize Section End */
+
+    /* EXPERIENCE SECTION START */
+    .experience-item1-description {
+        margin-left: 6%;
+    }
+
+    .experiences-item1-image img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .experiences-item1 {
+        display: flex;
+        padding: 6%;
+    }
+
+    .experiences-items {
+        flex-direction: column;
+    }
+
+    /* EXPERIENCE SECTION END */
 }
 
-/* Tablet Responsive Section Start */
+
+/* Tablet Responsive Section END */
