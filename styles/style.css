@@ -76,9 +76,10 @@ body {
 @media screen and (max-width:576px) {
 
     /* Header Section Start  */
-    .introduce {
+    .introduce,
+    .introduce-description-header {
         flex-direction: column;
-
+        margin-bottom: 0;
 
     }
 
@@ -102,6 +103,11 @@ body {
     /* Header Section Start  */
     .image {
         width: 80%;
+    }
+
+    .introduce-description-header {
+        flex-direction: column;
+        margin: 0;
     }
 
     /* Header Section End  */
