@@ -18,6 +18,25 @@ body {
     background: #F2F2F2;
 }
 
+.btn-primary {
+    padding: 3% 5%;
+    border-radius: 12px;
+    background: #2F80ED;
+    border: 0;
+    margin: 2% 4%;
+    font-size: 18px;
+}
+
+.btn-secondary {
+    padding: 3% 5%;
+    border-radius: 12px;
+    border: 0;
+    margin: 2% 4%;
+    color: #2F80ED;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 /* Universal Section CSS End */
 
 /* Header Style Start  */
@@ -212,7 +231,7 @@ label {
 
 .experiences-items {
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
     gap: 10%;
     padding: 2%;
 }
@@ -282,6 +301,34 @@ label {
 
 /* HOBBIES SECTION END */
 
+/* BLOGS SECTION START */
+.blogs {
+    display: flex;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 2%;
+    margin: 5% 0%;
+}
+
+.recipe-blog-image {
+    width: 100%;
+    height: 58%;
+}
+
+.recipe-blog-image img {
+    width: 94%;
+    height: 94%;
+    border-radius: 21px;
+}
+
+.recpe-blog-description>h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 2% 0%;
+}
+
+/* BLOGS SECTION END */
 
 /* Mobile Responsive Section Start  */
 
@@ -364,7 +411,8 @@ label {
     /* EXPERIENCE SECTION END */
 
     /* HOBBIES SECTION START */
-    .hobbies {
+    .hobbies,
+    .blogs {
         flex-direction: column;
     }
 
@@ -378,6 +426,9 @@ label {
 
     /* HOBBIES SECTION END */
 
+    /* BLOGS SECTION START */
+    .blogs
+    /* BLOGS SECTION END */
 
 
 }
@@ -401,7 +452,8 @@ label {
     /* Header Section End  */
 
     /* Progress Section Start */
-    .progress-items {
+    .progress-items,
+    .blogs {
         flex-direction: column;
     }
 
@@ -474,6 +526,9 @@ label {
     }
 
     /* HOBBIES SECTION END */
+
+    /* BLOGS SECTION START */
+    /* BLOGS SECTION END */
 }
 
 
