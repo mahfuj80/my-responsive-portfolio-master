@@ -239,7 +239,48 @@ label {
 
 /* EXPERIENCE SECTION END */
 
+/* HOBBIES SECTION START */
+.hobbies-section {
+    border-radius: 12px;
+    background: #FFF;
+    padding: 2%;
+}
 
+.hobbies-section>h3 {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 1% 0%;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobbie-image {
+    width: 93%;
+}
+
+.hobbie-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hobbie-description>h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+
+.hobbie-description>p {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* HOBBIES SECTION END */
 
 
 /* Mobile Responsive Section Start  */
@@ -322,6 +363,22 @@ label {
 
     /* EXPERIENCE SECTION END */
 
+    /* HOBBIES SECTION START */
+    .hobbies {
+        flex-direction: column;
+    }
+
+    .hobbie {
+        padding: 2% 0%;
+    }
+
+    .hobbie-image {
+        margin: auto;
+    }
+
+    /* HOBBIES SECTION END */
+
+
 
 }
 
@@ -402,6 +459,21 @@ label {
     }
 
     /* EXPERIENCE SECTION END */
+
+    /* HOBBIES SECTION START */
+    .hobbies {
+        flex-direction: column;
+    }
+
+    .hobbie {
+        padding: 2% 0%;
+    }
+
+    .hobbie-image {
+        margin: auto;
+    }
+
+    /* HOBBIES SECTION END */
 }
 
 
